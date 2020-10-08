@@ -9,6 +9,9 @@
 using namespace std;
 
 int main(){
-
+  mciSendString("set cdaudio tray open", NULL, NULL, NULL);
+  printf("cd tray opened successfully")
+  getchar();
+  return EXIT_SUCESS;
 }
 
