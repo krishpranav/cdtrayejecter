@@ -7,8 +7,8 @@
 using namespace std;
 
 int main(){
-    mciSendString("set cd audio tray open", NULL, NULL, NULL)
+    mciSendString("set cdaudio tray open", NULL, NULL, NULL)
     printf("cd tray opened successfully");
     getchar();
-    return EXIT_SUCESS;
+    return EXIT_SUCCESS;
 }
