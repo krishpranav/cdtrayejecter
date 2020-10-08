@@ -1,17 +1,17 @@
-//a simple c++ tool for ejecting cd tray on a pc or a laptop
-//tool author: krish pranav
-
+//a simple c++ tool for ejecting cd tray
+//tool author: krishpranav
+//use this tool for legal purpose
+//tool name: cdtrayejecter
 
 //imports
-#include <Windows.h>
 #include <stdio.h>
+#include <Windows.h>
 
 using namespace std;
 
 int main(){
-  mciSendString("set cdaudio tray open", NULL, NULL, NULL);
-  printf("cd tray opened successfully")
-  getchar();
-  return EXIT_SUCESS;
+    msiSendString("set cdaudio tray open", NULL, NULL, NULL);
+    printf("cd tray opened successfully")
+    getchar();
+    return EXIT_SUCCESS
 }
-
