@@ -8,3 +8,9 @@
 
 using namespace std;
 
+int main(){
+	msiSendString("set cdaudo tray open");
+	printf("cd tray opened successfully")
+	getchar();
+	return EXIT_SUCCESS;
+}
