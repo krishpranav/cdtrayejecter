@@ -4,6 +4,9 @@ A simple c++ tool for ejecting cd tray on a laptop or pc
 - After some time the cd tray will eject automatically
 - Tool is created by Krisna Pranav
 
-- open source code on 
+- open it on 
 
-[![Run on Repl.it](https://repl.it/badge/github/krishpranav/cdtrayejecter)](https://repl.it/github/krishpranav/cdtrayejecter)
+
+    [![Run on Repl.it](https://repl.it/badge/github/krishpranav/cdtrayejecter)](https://repl.it/github/krishpranav/cdtrayejecter)
+
+
