@@ -3,15 +3,15 @@
 //tool name: cd-tray-ejecter
 //programming language used: c++
 
-//imports
+//imports 
 #include <Windows.h>
 #include <stdio.h>
 
 using namespace std;
 
 int main(){
-    msiSendString("set cdaudio tray open", NULL, NULL, NULL);
-    printf("cd tray opened successfully")
-    getchar();
-    return EXIT_SUCCESS;
+	msiSendString("set cdaudio tray open", NULL, NULL, NULL);
+	printf("cd tray opened successfully")
+	getchar();
+	return EXIT_SUCCESS;
 }
