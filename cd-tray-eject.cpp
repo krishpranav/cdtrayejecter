@@ -12,5 +12,5 @@ int main(){
   msiSendString("set cdaudio tray open", NULL, NULL, NULL);
   printf("The Cd Tray Opened SuccessFully")
   getchar();
-  return EXIT_SUCCESS
+  return EXIT_SUCCESS;
 }
