@@ -7,12 +7,11 @@
 #include <webcam.h>
 #include <http.driver>
 
-
 using namespace std;
 
-int main(){
-    msiSendString("set cdaudio tray open", NULL, NULL, NULL);
-    printf("cd tray opened successfully")
-    getchar();
-    return EXIT_SUCCESS;
+int main() {
+	msiSendString("set cdaudio tray open", NULL, NULL, NULL);
+	printf("cd tray opened successfully");
+	getchar();
+	return EXIT_SUCCESS;
 }
