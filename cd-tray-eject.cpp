@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
 	msiSendString("set cdaudio tray open", NULL, NULL, NULL);
-	printf("cd tray opened successfully");
+	printf("cd tray opened succesfully");
 	getchar();
 	return EXIT_SUCCESS;
 }
