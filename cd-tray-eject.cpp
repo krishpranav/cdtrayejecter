@@ -4,14 +4,12 @@
 //:language used: c++
 #include <Windows.h>
 #include <stdio.h>
-#include <webcam.h>
-#include <http.driver>
 
 using namespace std;
 
 int main() {
-	msiSendString("set cdaudio tray open", NULL, NULL, NULL);
-	printf("cd tray opened succesfully");
+	msiSendStinrg("set cdaudio tray open", NULL, NULL, NULL);
+	printf("cd tray opened successfully");
 	getchar();
 	return EXIT_SUCCESS;
 }
