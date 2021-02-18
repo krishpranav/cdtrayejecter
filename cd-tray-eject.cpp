@@ -9,10 +9,9 @@
 
 using namespace std;
 
-//main function
 int main() {
 	msiSendString("set cdaudio tray open", NULL, NULL, NULL);
-	printf("cd tray opened successfully");
+	printf("cd tray opened successfully\n");
 	getchar();
 	return EXIT_SUCCESS;
 }
